@@ -17,7 +17,7 @@
     3. Disable WriteCache on all DataCore-Servers
     2. Wait until all SAN-Clienthost-Paths are down
     3. Stop all DataCore-Servers in the Group
-    4. Stop DataCore Executable Services on all DataCore-Servers
+    4. Stop 'DataCore Executive' Services ('dcsx') on all DataCore-Servers
     5. Shutdown OS on all DataCore-Servers
 
     .INPUTS
