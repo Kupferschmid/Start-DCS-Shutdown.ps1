@@ -1,6 +1,6 @@
 # Start-DCS-Shutdown.ps1
-uninterruptible power supply (UPS)  Script to shutdown all DataCore Servers
-<#
+Remote ShutDown Script for all DataCore Servers in a ServerGroup
+
     .SYNOPSIS
     Remote ShutDown Script for all DataCore Servers in a ServerGroup
 
@@ -19,7 +19,7 @@ uninterruptible power supply (UPS)  Script to shutdown all DataCore Servers
     3. Disable WriteCache on all DataCore-Servers
     2. Wait until all SAN-Clienthost-Paths are down
     3. Stop all DataCore-Servers in the Group
-    4. Stop DataCore Executable Services on all DataCore-Servers
+    4. Stop 'DataCore Executive' Services ('dcsx') on all DataCore-Servers
     5. Shutdown OS on all DataCore-Servers
 
     .INPUTS
@@ -42,5 +42,3 @@ uninterruptible power supply (UPS)  Script to shutdown all DataCore Servers
     Created on : 2023-02-12
     License    : No License
     Copyright  : (c) 2023 tempero.it GmbH
-
-#>
