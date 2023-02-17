@@ -32,7 +32,10 @@ Remote ShutDown Script for all DataCore Servers in a ServerGroup
 
     .EXAMPLE
     Start-DCS-Shutdown.ps1
-
+    
+    .EXAMPLE
+    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe  -File ".\Start-DCS-Shutdown.ps1"
+    
     .LINK
     Online version: https://github.com/Kupferschmid/Start-DCS-Shutdown.ps1
 
